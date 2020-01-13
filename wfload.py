@@ -37,4 +37,10 @@ def wf_load(name):
         )
         return answer_txt
     except KeyError:
-        return 'Пользователь {0} не найден. Проверьте правильность написания.'.format(name)
+        answer_txt = wf_answer['message'].split()
+        answer_txt.insert(1, name)
+        conversion_result = ''
+        conversion_result = ' '.join(answer_txt)
+        
+        return conversion_result
+
