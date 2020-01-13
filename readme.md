@@ -4,14 +4,14 @@
 
 ### deploy on the heroku
 
->heroku login
->heroku create
->git init
->heroku git:remote -a name
->git add .    
->git commit -am "make it better" 
->git push heroku master    
->heroku ps:scale bot=1 
->heroku logs - если нужно
->
->heroku ps:stop bot - отключаем бота
+- heroku login
+- heroku create
+- git init
+- heroku git:remote -a name
+- git add .    
+- git commit -am "make it better" 
+- git push heroku master    
+- heroku ps:scale bot=1 
+- heroku logs - если нужно
+- 
+- heroku ps:stop bot - отключаем бота
