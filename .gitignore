@@ -2,3 +2,4 @@ WFBot/
 WFBot-env/
 __pycache__/
 .vscode/
+setting.py
