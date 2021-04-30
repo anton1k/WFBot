@@ -8,4 +8,4 @@ pymorphy2-dicts==2.4.393442.3710985
 pyTelegramBotAPI==3.6.6
 requests==2.22.0
 six==1.13.0
-urllib3==1.25.7
+urllib3==1.25.8
